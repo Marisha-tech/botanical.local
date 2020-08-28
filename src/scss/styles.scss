@@ -1,0 +1,34 @@
+$bg-color: orange;
+$bg-menu: #f0f0f0;
+$bg-banner: #323232;
+$font-main: 'Playfair Display', sans-serif;
+
+body {
+  //background: $bg-color;
+  font-family: $font-main;
+}
+section
+{
+  padding: 100px 0;
+}
+/*==============================Header==============================*/
+.main-header
+{
+  background: $bg-menu;
+  //background: url("/img/bgf.jpg") center no-repeat;
+  background-size: cover;
+  //height: 100vh;
+  //min-height: 700px;
+  position: relative;
+  //background: $bg-color;
+}
+/*.navbar {
+  background: $bg-menu;
+}*/
+.section-banner
+{
+  background: $bg-banner;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+}
