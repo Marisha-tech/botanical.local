@@ -20,11 +20,16 @@
   "devDependencies": {
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
     "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
+    "magnific-popup": "^1.1.0",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1"
   }
 }
