@@ -2,21 +2,74 @@
 //@import "../../node_modules/slick-carousel/slick/slick";
 //@import "../../node_modules/magnific-popup/dist/magnific-popup";
 
-
-$bg-color: orange;
-$bg-menu: #f0f0f0;
-$bg-banner: white;
-$font-main: 'Playfair Display', sans-serif;
-
-body {
-  //background: $bg-color;
+//
+//$bg-color: orange;
+//$bg-menu: #f0f0f0;
+//$bg-banner: white;
+$font-size-body: '0.9375rem';
+$font-main: 'Roboto', sans-serif;
+$border-bottom: 2px solid #5ba515;
+*,
+*::after,
+*::before
+{
+  box-sizing: border-box;
+}
+body
+{
+  font-size: $font-size-body;
   font-family: $font-main;
+  //font-family: 'Playfair Display', serif;
+  //font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #707070;
+}
+a{
+  color: #707070;
+}
+a:hover
+{
+  color: #5ba515;
+  //text-decoration: none;
+
 }
 section
 {
   padding: 100px 0;
 }
 /*==============================Header==============================*/
+#header .logo {
+  width: 125px;
+}
+/*.nav-item .active
+{
+  border-bottom: $border-bottom;
+}*/
+ul.navbar-nav li
+{
+  margin: 0 23px;
+  vertical-align: middle;
+}
+ul.navbar-nav
+{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 0.875;
+}
+.nav-link:hover
+{
+  border-bottom: $border-bottom;
+  transition: all 0.25s linear;
+  transform-origin: 50% 100% 0;
+}
+.nav-link .active>a:after
+{
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+/*
 .main-header
 {
   background: $bg-menu;
@@ -27,13 +80,13 @@ section
   position: relative;
   //background: $bg-color;
 }
-/*.navbar {
+!*.navbar {
   background: $bg-menu;
-}*/
+}*!
 .section-banner
 {
   background: $bg-banner;
   background-size: cover;
   height: 100vh;
   min-height: 700px;
-}
+}*/
