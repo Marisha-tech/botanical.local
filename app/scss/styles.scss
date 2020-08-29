@@ -1,0 +1,39 @@
+@import "../../node_modules/normalize.css/normalize";
+//@import "../../node_modules/slick-carousel/slick/slick";
+//@import "../../node_modules/magnific-popup/dist/magnific-popup";
+
+
+$bg-color: orange;
+$bg-menu: #f0f0f0;
+$bg-banner: white;
+$font-main: 'Playfair Display', sans-serif;
+
+body {
+  //background: $bg-color;
+  font-family: $font-main;
+}
+section
+{
+  padding: 100px 0;
+}
+/*==============================Header==============================*/
+.main-header
+{
+  background: $bg-menu;
+  //background: url("/img/bgf.jpg") center no-repeat;
+  background-size: cover;
+  //height: 100vh;
+  //min-height: 700px;
+  position: relative;
+  //background: $bg-color;
+}
+/*.navbar {
+  background: $bg-menu;
+}*/
+.section-banner
+{
+  background: $bg-banner;
+  background-size: cover;
+  height: 100vh;
+  min-height: 700px;
+}
